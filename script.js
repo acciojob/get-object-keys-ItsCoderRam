@@ -5,3 +5,4 @@ let student = {
 Object.protoype.getKets = function(){
 	return Object.getKeys(this);
 }
+console.log(student.getKeys());
